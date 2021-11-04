@@ -1,0 +1,25 @@
+#!/usr/bin/env sh
+
+# Spacebar setting
+# spacebar -m config status_bar                   on
+
+spacebar -m config position           bottom
+spacebar -m config height             20
+spacebar -m config spacing_left       10
+spacebar -m config spacing_right      10
+spacebar -m config text_font          "Helvetica Neue:Bold:14.0"
+spacebar -m config icon_font          "Font Awesome 5 Free:Solid:14.0"
+spacebar -m config background_color   0xff000000
+# spacebar -m config foreground_color   0xffa8a8a8
+spacebar -m config foreground_color   0xffffffff
+spacebar -m config space_icon_color   0xffff0000
+spacebar -m config power_icon_color   0xff8dfafd
+spacebar -m config battery_icon_color 0xffd75f5f
+spacebar -m config dnd_icon_color     0xffa8a8a8
+spacebar -m config clock_icon_color   0xffa8a8a8
+spacebar -m config space_icon_strip             
+spacebar -m config power_icon_strip    
+spacebar -m config space_icon         
+spacebar -m config clock_icon         
+spacebar -m config dnd_icon           
+spacebar -m config clock_format       "%a %y/%m/%d %R"

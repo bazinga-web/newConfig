@@ -1,0 +1,68 @@
+port: 7890
+socks-port: 7891
+redir-port: 0
+allow-lan: false
+mode: Rule
+log-level: info
+external-controller: '0.0.0.0:9090'
+secret: ''
+
+
+proxies:
+- { name: "DaWang-HK-HongKong1",type: vmess,server: hk1.dav2.top,port: 443,uuid: A319F0E3-F1AB-B7EC-B940-34FCE4DFC0EA,alterId: 1,cipher: none, network: ws, tls: true}
+- { name: "DaWang-HK-HongKong2",type: vmess,server: hk2.dav2.top,port: 14444,uuid: A319F0E3-F1AB-B7EC-B940-34FCE4DFC0EA,alterId: 1,cipher: none, network: ws, tls: true}
+- { name: "DaWang-HK-HongKong3",type: vmess,server: hk3.dav2.top,port: 14444,uuid: A319F0E3-F1AB-B7EC-B940-34FCE4DFC0EA,alterId: 1,cipher: none, network: ws, tls: true}
+- { name: "DaWang-HK-HongKong4",type: vmess,server: hk4.dav2.top,port: 444,uuid: A319F0E3-F1AB-B7EC-B940-34FCE4DFC0EA,alterId: 1,cipher: none, network: ws, tls: true}
+- { name: "DaWang-HK-HongKong5",type: vmess,server: hk5.dav2.top,port: 444,uuid: A319F0E3-F1AB-B7EC-B940-34FCE4DFC0EA,alterId: 1,cipher: none, network: ws, tls: true}
+- { name: "DaWang-HK-HongKong6",type: vmess,server: hk6.dav2.top,port: 444,uuid: A319F0E3-F1AB-B7EC-B940-34FCE4DFC0EA,alterId: 1,cipher: none, network: ws, tls: true}
+- { name: "DaWang-HK-HongKong7",type: vmess,server: hk7.dav2.top,port: 444,uuid: A319F0E3-F1AB-B7EC-B940-34FCE4DFC0EA,alterId: 1,cipher: none, network: ws, tls: true}
+- { name: "DaWang-HK-HongKong8",type: vmess,server: hk8.dav2.top,port: 444,uuid: A319F0E3-F1AB-B7EC-B940-34FCE4DFC0EA,alterId: 1,cipher: none, network: ws, tls: true}
+- { name: "DaWang-HK-HongKong9",type: vmess,server: hk9.dav2.top,port: 444,uuid: A319F0E3-F1AB-B7EC-B940-34FCE4DFC0EA,alterId: 1,cipher: none, network: ws, tls: true}
+- { name: "DaWang-HK-HongKong0",type: vmess,server: hk0.dav2.top,port: 444,uuid: A319F0E3-F1AB-B7EC-B940-34FCE4DFC0EA,alterId: 1,cipher: none, network: ws, tls: true}
+- { name: "DaWang-JP-Tokyo1",type: vmess,server: jp1.dav2.top,port: 14444,uuid: A319F0E3-F1AB-B7EC-B940-34FCE4DFC0EA,alterId: 1,cipher: none, network: ws, tls: true}
+- { name: "DaWang-JP-Tokyo2",type: vmess,server: jp2.dav2.top,port: 444,uuid: A319F0E3-F1AB-B7EC-B940-34FCE4DFC0EA,alterId: 1,cipher: none, network: ws, tls: true}
+- { name: "DaWang-JP-Tokyo3",type: vmess,server: jp3.dav2.top,port: 444,uuid: A319F0E3-F1AB-B7EC-B940-34FCE4DFC0EA,alterId: 1,cipher: none, network: ws, tls: true}
+- { name: "DaWang-JP-Tokyo4",type: vmess,server: jp4.dav2.top,port: 444,uuid: A319F0E3-F1AB-B7EC-B940-34FCE4DFC0EA,alterId: 1,cipher: none, network: ws, tls: true}
+- { name: "DaWang-JP-Tokyo5",type: vmess,server: jp5.dav2.top,port: 444,uuid: A319F0E3-F1AB-B7EC-B940-34FCE4DFC0EA,alterId: 1,cipher: none, network: ws, tls: true}
+- { name: "DaWang-JP-Tokyo6",type: vmess,server: jp6.dav2.top,port: 444,uuid: A319F0E3-F1AB-B7EC-B940-34FCE4DFC0EA,alterId: 1,cipher: none, network: ws, tls: true}
+- { name: "DaWang-JP-Tokyo7",type: vmess,server: jp7.dav2.top,port: 444,uuid: A319F0E3-F1AB-B7EC-B940-34FCE4DFC0EA,alterId: 1,cipher: none, network: ws, tls: true}
+- { name: "DaWang-TW-Taipei1",type: vmess,server: tw1.dav2.top,port: 444,uuid: A319F0E3-F1AB-B7EC-B940-34FCE4DFC0EA,alterId: 1,cipher: none, network: ws, tls: true}
+- { name: "DaWang-TW-Taipei2",type: vmess,server: tw2.dav2.top,port: 444,uuid: A319F0E3-F1AB-B7EC-B940-34FCE4DFC0EA,alterId: 1,cipher: none, network: ws, tls: true}
+- { name: "DaWang-TW-Taipei3",type: vmess,server: tw3.dav2.top,port: 444,uuid: A319F0E3-F1AB-B7EC-B940-34FCE4DFC0EA,alterId: 1,cipher: none, network: ws, tls: true}
+- { name: "DaWang-TW-Taipei4",type: vmess,server: tw4.dav2.top,port: 444,uuid: A319F0E3-F1AB-B7EC-B940-34FCE4DFC0EA,alterId: 1,cipher: none, network: ws, tls: true}
+- { name: "DaWang-SG-Singapore1",type: vmess,server: sg1.dav2.top,port: 444,uuid: A319F0E3-F1AB-B7EC-B940-34FCE4DFC0EA,alterId: 1,cipher: none, network: ws, tls: true}
+- { name: "DaWang-SG-Singapore2",type: vmess,server: sg2.dav2v2v2.top,port: 444,uuid: A319F0E3-F1AB-B7EC-B940-34FCE4DFC0EA,alterId: 1,cipher: none, network: ws, tls: true}
+- { name: "DaWang-SG-Singapore3",type: vmess,server: sg3.dav2v2v2.top,port: 444,uuid: A319F0E3-F1AB-B7EC-B940-34FCE4DFC0EA,alterId: 1,cipher: none, network: ws, tls: true}
+- { name: "DaWang-SG-Singapore4",type: vmess,server: sg4.dav2v2v2.top,port: 444,uuid: A319F0E3-F1AB-B7EC-B940-34FCE4DFC0EA,alterId: 1,cipher: none, network: ws, tls: true}
+- { name: "DaWang-SG-Singapore5",type: vmess,server: sg5.dav2v2v2.top,port: 444,uuid: A319F0E3-F1AB-B7EC-B940-34FCE4DFC0EA,alterId: 1,cipher: none, network: ws, tls: true}
+- { name: "DaWang-SG-Singapore6",type: vmess,server: sg6.dav2v2.top,port: 444,uuid: A319F0E3-F1AB-B7EC-B940-34FCE4DFC0EA,alterId: 1,cipher: none, network: ws, tls: true}
+- { name: "DaWang-SG-Singapore7",type: vmess,server: sg7.dav2v2.top,port: 444,uuid: A319F0E3-F1AB-B7EC-B940-34FCE4DFC0EA,alterId: 1,cipher: none, network: ws, tls: true}
+- { name: "DaWang-SG-Singapore8",type: vmess,server: sg8.dav2v2.top,port: 444,uuid: A319F0E3-F1AB-B7EC-B940-34FCE4DFC0EA,alterId: 1,cipher: none, network: ws, tls: true}
+- { name: "DaWang-SG-Singapore9",type: vmess,server: sg9.dav2v2.top,port: 444,uuid: A319F0E3-F1AB-B7EC-B940-34FCE4DFC0EA,alterId: 1,cipher: none, network: ws, tls: true}
+- { name: "DaWang-SG-Singapore0",type: vmess,server: sg0.dav2v2.top,port: 444,uuid: A319F0E3-F1AB-B7EC-B940-34FCE4DFC0EA,alterId: 1,cipher: none, network: ws, tls: true}
+- { name: "DaWang-KR-Seoul1",type: vmess,server: kr1.dav2.top,port: 444,uuid: A319F0E3-F1AB-B7EC-B940-34FCE4DFC0EA,alterId: 1,cipher: none, network: ws, tls: true}
+- { name: "DaWang-KR-Seoul2",type: vmess,server: kr2.dav2v2v2.top,port: 444,uuid: A319F0E3-F1AB-B7EC-B940-34FCE4DFC0EA,alterId: 1,cipher: none, network: ws, tls: true}
+- { name: "DaWang-KR-Seoul3",type: vmess,server: kr3.dav2v2v2.top,port: 444,uuid: A319F0E3-F1AB-B7EC-B940-34FCE4DFC0EA,alterId: 1,cipher: none, network: ws, tls: true}
+- { name: "DaWang-KR-Seoul4",type: vmess,server: kr4.dav2v2v2.top,port: 444,uuid: A319F0E3-F1AB-B7EC-B940-34FCE4DFC0EA,alterId: 1,cipher: none, network: ws, tls: true}
+- { name: "DaWang-US-LosAngeles1",type: vmess,server: us1.dav2v2.top,port: 443,uuid: A319F0E3-F1AB-B7EC-B940-34FCE4DFC0EA,alterId: 1,cipher: none, network: ws, tls: true}
+- { name: "DaWang-US-LosAngeles2",type: vmess,server: us2.dav2v2.top,port: 443,uuid: A319F0E3-F1AB-B7EC-B940-34FCE4DFC0EA,alterId: 1,cipher: none, network: ws, tls: true}
+- { name: "DaWang-US-LosAngeles3",type: vmess,server: us3.dav2v2.top,port: 443,uuid: A319F0E3-F1AB-B7EC-B940-34FCE4DFC0EA,alterId: 1,cipher: none, network: ws, tls: true}
+- { name: "DaWang-US-LosAngeles4",type: vmess,server: us4.dav2v2.top,port: 443,uuid: A319F0E3-F1AB-B7EC-B940-34FCE4DFC0EA,alterId: 1,cipher: none, network: ws, tls: true}
+- { name: "DaWang-US-LosAngeles5",type: vmess,server: us5.dav2v2.top,port: 443,uuid: A319F0E3-F1AB-B7EC-B940-34FCE4DFC0EA,alterId: 1,cipher: none, network: ws, tls: true}
+
+
+proxy-groups:
+- { name: 100云服务器V2型号租用一年, type: select, proxies: ["DaWang-HK-HongKong1", "DaWang-HK-HongKong2", "DaWang-HK-HongKong3", "DaWang-HK-HongKong4", "DaWang-HK-HongKong5", "DaWang-HK-HongKong6", "DaWang-HK-HongKong7", "DaWang-HK-HongKong8", "DaWang-HK-HongKong9", "DaWang-HK-HongKong0", "DaWang-JP-Tokyo1", "DaWang-JP-Tokyo2", "DaWang-JP-Tokyo3", "DaWang-JP-Tokyo4", "DaWang-JP-Tokyo5", "DaWang-JP-Tokyo6", "DaWang-JP-Tokyo7", "DaWang-TW-Taipei1", "DaWang-TW-Taipei2", "DaWang-TW-Taipei3", "DaWang-TW-Taipei4", "DaWang-SG-Singapore1", "DaWang-SG-Singapore2", "DaWang-SG-Singapore3", "DaWang-SG-Singapore4", "DaWang-SG-Singapore5", "DaWang-SG-Singapore6", "DaWang-SG-Singapore7", "DaWang-SG-Singapore8", "DaWang-SG-Singapore9", "DaWang-SG-Singapore0", "DaWang-KR-Seoul1", "DaWang-KR-Seoul2", "DaWang-KR-Seoul3", "DaWang-KR-Seoul4", "DaWang-US-LosAngeles1", "DaWang-US-LosAngeles2", "DaWang-US-LosAngeles3", "DaWang-US-LosAngeles4", "DaWang-US-LosAngeles5"], url: http://connectivitycheck.platform.hicloud.com/generate_204 }
+
+rules:
+- DOMAIN-SUFFIX,google.com,100云服务器V2型号租用一年
+- DOMAIN-KEYWORD,google,100云服务器V2型号租用一年
+- DOMAIN,google.com,100云服务器V2型号租用一年
+
+# LAN
+- IP-CIDR,127.0.0.0/8,DIRECT
+- IP-CIDR,172.16.0.0/12,DIRECT
+- IP-CIDR,192.168.0.0/16,DIRECT
+
+- GEOIP,CN,DIRECT
+- MATCH,100云服务器V2型号租用一年
