@@ -90,9 +90,9 @@ set autoindent
 
 " Use <space> + new arrow keys for moving the cursor around windows
 noremap <LEADER>w <C-w>w
-noremap <LEADER>i <C-w>k
-noremap <LEADER>k <C-w>j
-noremap <LEADER>j <C-w>h
+noremap <LEADER>k <C-w>k
+noremap <LEADER>j <C-w>j
+noremap <LEADER>h <C-w>h
 noremap <LEADER>l <C-w>l
 
 " Disable the default `s` key
@@ -100,9 +100,9 @@ map s <nop>
 
 " split the screens to up (horizontal), down (horizontal), left (vertical), right (vertical)
 map sl :set splitright<CR>:vsplit<CR>
-map sj :set nosplitright<CR>:vsplit<CR>
-map si :set nosplitbelow<CR>:split<CR>
-map sk :set splitbelow<CR>:split<CR>
+map sh :set nosplitright<CR>:vsplit<CR>
+map sk :set nosplitbelow<CR>:split<CR>
+map sj :set splitbelow<CR>:split<CR>
 
 " Place the two screens up and down
 noremap sh <C-w>t<C-w>K
